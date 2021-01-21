@@ -170,7 +170,7 @@ void mvkSetMVKConfiguration(MVKConfiguration* pMVKConfig);
 
 /** Support full ImageView swizzles. Disabled by default. */
 #ifndef MVK_CONFIG_FULL_IMAGE_VIEW_SWIZZLE
-#   define MVK_CONFIG_FULL_IMAGE_VIEW_SWIZZLE    0
+#   define MVK_CONFIG_FULL_IMAGE_VIEW_SWIZZLE    1
 #endif
 
 /** Set the fastMathEnabled Metal Compiler option. Enabled by default. */
